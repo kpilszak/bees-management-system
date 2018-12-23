@@ -12,6 +12,8 @@ namespace bees_management_system
 {
     public partial class Form1 : Form
     {
+        private Queen queen;
+
         public Form1()
         {
             InitializeComponent();
@@ -26,7 +28,15 @@ namespace bees_management_system
 
         private void nextShift_Click(object sender, EventArgs e)
         {
+            report.Text = queen.WorkTheNextShift();
+        }
 
+        private void assignJob_Click(object sender, EventArgs e)
+        {
+            if (queen.AssignWork(workerBeeJob.Text, (int)shifts.Value) == false)
+                MessageBox.Show("There aren't any available bees to do this job. '" + workerBeeJob.Text + "' cannot be done during this shift.", "The queen of bees says...");
+            else
+                MessageBox.Show("'" + workerBeeJob.Text + "' will be finished in " + shifts.Value + " shifts.", "The queen of bees says...");
         }
     }
 }
