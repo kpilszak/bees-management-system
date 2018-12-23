@@ -1,0 +1,10 @@
+C:\Users\klaud\OneDrive\_Tygodniówka\C#\bees-management-system\bees-management-system\bin\Debug\bees-management-system.exe.config
+C:\Users\klaud\OneDrive\_Tygodniówka\C#\bees-management-system\bees-management-system\bin\Debug\bees-management-system.exe
+C:\Users\klaud\OneDrive\_Tygodniówka\C#\bees-management-system\bees-management-system\bin\Debug\bees-management-system.pdb
+C:\Users\klaud\OneDrive\_Tygodniówka\C#\bees-management-system\bees-management-system\obj\Debug\bees-management-system.csprojAssemblyReference.cache
+C:\Users\klaud\OneDrive\_Tygodniówka\C#\bees-management-system\bees-management-system\obj\Debug\bees_management_system.Form1.resources
+C:\Users\klaud\OneDrive\_Tygodniówka\C#\bees-management-system\bees-management-system\obj\Debug\bees_management_system.Properties.Resources.resources
+C:\Users\klaud\OneDrive\_Tygodniówka\C#\bees-management-system\bees-management-system\obj\Debug\bees-management-system.csproj.GenerateResource.cache
+C:\Users\klaud\OneDrive\_Tygodniówka\C#\bees-management-system\bees-management-system\obj\Debug\bees-management-system.csproj.CoreCompileInputs.cache
+C:\Users\klaud\OneDrive\_Tygodniówka\C#\bees-management-system\bees-management-system\obj\Debug\bees-management-system.exe
+C:\Users\klaud\OneDrive\_Tygodniówka\C#\bees-management-system\bees-management-system\obj\Debug\bees-management-system.pdb

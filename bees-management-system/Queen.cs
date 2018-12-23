@@ -21,7 +21,7 @@
         public string WorkTheNextShift()
         {
             shiftNumber++;
-            string report = "Shift report number " + shiftNumber + "\n";
+            string report = "Shift report number " + shiftNumber + "\r\n";
             for (int i = 0; i < workers.Length; i++)
             {
                 if (workers[i].DidYouFinish())
