@@ -87,12 +87,12 @@
             this.workerBeeJob.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.workerBeeJob.FormattingEnabled = true;
             this.workerBeeJob.Items.AddRange(new object[] {
-            "teaching young bees",
-            "eggs care",
-            "keeping the hive",
-            "honey production",
-            "nectar collecting",
-            "patrol with stings"});
+            "Teaching young bees",
+            "Eggs care",
+            "Keeping the hive",
+            "Honey production",
+            "Collecting nectar",
+            "Patrol with stings"});
             this.workerBeeJob.Location = new System.Drawing.Point(10, 65);
             this.workerBeeJob.Name = "workerBeeJob";
             this.workerBeeJob.Size = new System.Drawing.Size(236, 28);
