@@ -21,6 +21,7 @@ namespace bees_management_system
             workers[1] = new Worker(new string[] { "Eggs care", "Teaching young bees" });
             workers[2] = new Worker(new string[] { "Keeping the hive", "Patrol with stings" });
             workers[3] = new Worker(new string[] { "Collecting nectar", "Honey production", "Eggs care", "Teaching young bees", "Keeping the hive", "Patrol with stings" });
+            queen = new Queen(workers);
         }
 
         private void nextShift_Click(object sender, EventArgs e)
