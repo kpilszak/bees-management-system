@@ -16,5 +16,10 @@ namespace bees_management_system
         {
             InitializeComponent();
         }
+
+        private void nextShift_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
