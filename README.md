@@ -8,7 +8,7 @@
 ## General info
 This project is a Windows Forms Application.  
 The main purpose is to set tasks for bees.   
-There are six kinds of jobs bees can take: teaching young bees, eggs care, keeping the hive, honey production, nectar collecting, patrol with stings.  
+There are six kinds of jobs bees can take: teaching young bees, eggs care, keeping the hive, honey production, collecting nectar, patrol with stings.  
 Not every bee can do every task. 
 Every job can last one or more shifts.  
 There are four bees available.  
