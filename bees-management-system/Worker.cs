@@ -2,7 +2,8 @@
 {
     public class Worker : Bee
     {
-        public Worker(string[] jobsICanDo)
+        public Worker(string[] jobsICanDo, double weightMg)
+            : base(weightMg)
         {
             this.jobsICanDo = jobsICanDo;
         }
