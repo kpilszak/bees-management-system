@@ -1,6 +1,6 @@
 ﻿namespace bees_management_system
 {
-    public class Bee : IStingPatrol
+    public class Bee
     {
         public const double HoneyUnitsConsumePerMg = .25;
 
