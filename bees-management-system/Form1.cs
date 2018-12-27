@@ -19,11 +19,11 @@ namespace bees_management_system
             InitializeComponent();
             workerBeeJob.SelectedIndex = 0;
             Worker[] workers = new Worker[4];
-            workers[0] = new Worker(new string[] { "Collecting nectar", "Honey production" });
-            workers[1] = new Worker(new string[] { "Eggs care", "Teaching young bees" });
-            workers[2] = new Worker(new string[] { "Keeping the hive", "Patrol with stings" });
-            workers[3] = new Worker(new string[] { "Collecting nectar", "Honey production", "Eggs care", "Teaching young bees", "Keeping the hive", "Patrol with stings" });
-            queen = new Queen(workers);
+            workers[0] = new Worker(new string[] { "Collecting nectar", "Honey production" }, 175);
+            workers[1] = new Worker(new string[] { "Eggs care", "Teaching young bees" }, 114);
+            workers[2] = new Worker(new string[] { "Keeping the hive", "Patrol with stings" }, 149);
+            workers[3] = new Worker(new string[] { "Collecting nectar", "Honey production", "Eggs care", "Teaching young bees", "Keeping the hive", "Patrol with stings" }, 155);
+            queen = new Queen(workers, 275);
         }
 
         private void nextShift_Click(object sender, EventArgs e)
