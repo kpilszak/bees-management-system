@@ -21,10 +21,14 @@
 
         public string WorkTheNextShift()
         {
+            double honeyConsumed = HoneyConsumptionRate();
+
             shiftNumber++;
             string report = "Shift report number " + shiftNumber + "\r\n";
             for (int i = 0; i < workers.Length; i++)
             {
+                honeyConsumed += workers[i].HoneyConsumptionRate();
+
                 if (workers[i].DidYouFinish())
                     report += "Bee number " + (i + 1) + " has just finished its job\r\n";
                 if (string.IsNullOrEmpty(workers[i].CurrentJob))
@@ -35,6 +39,9 @@
                 else
                     report += "Bee number " + (i + 1) + " is about to finish the job. '" + workers[i].CurrentJob + "' will be done after this shift\r\n"; 
             }
+
+            report += "Honey consumption: " + honeyConsumed + " units\r\n";
+
             return report;
         }
     }
