@@ -2,6 +2,6 @@
 {
     class Bee
     {
-
+        public const double HoneyUnitsConsumePerMg = .25;
     }
 }
