@@ -1,8 +1,9 @@
 ﻿namespace bees_management_system
 {
-    class Queen
+    class Queen : Bee
     {
-        public Queen(Worker[] workers)
+        public Queen(Worker[] workers, double weightMg)
+            : base(weightMg)
         {
             this.workers = workers;
         }
