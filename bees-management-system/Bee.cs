@@ -5,5 +5,10 @@
         public const double HoneyUnitsConsumePerMg = .25;
 
         public double WeightMg { get; private set; }
+
+        public Bee(double weightMg)
+        {
+            WeightMg = weightMg;
+        }
     }
 }
