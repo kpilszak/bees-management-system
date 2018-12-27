@@ -1,6 +1,6 @@
 ﻿namespace bees_management_system
 {
-    public class Worker : Bee
+    class Worker : Bee
     {
         public Worker(string[] jobsICanDo, double weightMg)
             : base(weightMg)

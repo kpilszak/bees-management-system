@@ -1,6 +1,6 @@
 ﻿namespace bees_management_system
 {
-    public class Queen
+    class Queen
     {
         public Queen(Worker[] workers)
         {
