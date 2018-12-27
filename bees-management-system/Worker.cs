@@ -8,6 +8,8 @@
             this.jobsICanDo = jobsICanDo;
         }
 
+        const double honeyUnitsPerShiftWorked = .65;
+
         public int ShiftsLeft
         {
             get
