@@ -26,7 +26,7 @@ IDE: Visual Studio 2017
 * Windows 10
 
 ## Setup
-To run this project, open in Windows this file: /bees-management-system/obj/Debug/bees-management-system.exe
+To run this project, open in Windows this file: <a href="https://github.com/kpilszak/bees-management-system/blob/master/bees-management-system/obj/Debug/bees-management-system.exe">/bees-management-system/obj/Debug/bees-management-system.exe</a>
 
 ## Sources
 This project was created as an exercise from Jennifer Greene and Andrew Stellman book "Head First. C#".
